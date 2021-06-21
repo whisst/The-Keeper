@@ -39,7 +39,7 @@ class Permissions {
       },
       petImport: {
         id: 'petImport',
-        allowedRoles: [roles.manager, roles.employee],
+        allowedRoles: [roles.manager, roles.employee, roles.petOwner],
       },
       petCreate: {
         id: 'petCreate',
