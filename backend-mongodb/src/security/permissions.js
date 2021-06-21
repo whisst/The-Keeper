@@ -23,7 +23,7 @@ class Permissions {
       },
       iamUserAutocomplete: {
         id: 'iamUserAutocomplete',
-        allowedRoles: [roles.manager, roles.employee],
+        allowedRoles: [roles.manager, roles.employee, roles.petOwner],
       },
       auditLogRead: {
         id: 'auditLogRead',
